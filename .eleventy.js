@@ -1,5 +1,4 @@
 module.exports = function (eleventyConfig) {
-  // Pass through the compiled CSS
   eleventyConfig.addPassthroughCopy("src/css/output.css");
 
   return {
@@ -7,6 +6,6 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "_site",
     },
-    pathPrefix: "/", // <-- important for subpath deployment
+    pathPrefix: "/linktree/", // needed for project site
   };
 };
