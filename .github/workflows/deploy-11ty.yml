@@ -1,4 +1,4 @@
-name: 11ty Build & Deploy to GitHub Pages
+name: Deploy 11ty to /linktree
 
 on:
   push:
@@ -8,9 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./linktree  # <-- replace with your subdirectory
 
     steps:
       - name: Checkout code
@@ -31,5 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site      # relative to your working-directory
-          publish_branch: gh-pages  # ✅ correct input for v3
+          publish_dir: ./_site   # relative to repo root
+          publish_branch: gh-pages
