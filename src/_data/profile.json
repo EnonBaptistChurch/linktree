@@ -1,0 +1,28 @@
+{
+  "name": "Enon Baptist Church",
+  "bio": "Enon Baptist Church in Chatham",
+  "avatar": "https://enonbaptistchatham.org.uk/images/building/new-enon-320.webp",
+  "links": [
+    {
+      "label": "Church Website",
+      "url": "https://enonbaptistchatham.org.uk",
+      "sublabel": "https://enonbaptistchatham.org.uk"
+    },
+    {
+      "label": "Christian Institute",
+      "url": "https://christian.org.uk"
+    },
+    {
+      "label": "Christian Concern",
+      "url": "https://christianconcern.com"
+    },
+    {
+      "label": "Open Doors",
+      "url": "https://opendoorsuk.org"
+    },
+    {
+      "label": "Grace Baptist Mission",
+      "url": "https://gbm.org.uk"
+    }
+  ]
+}
