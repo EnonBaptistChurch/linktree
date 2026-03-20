@@ -1,4 +1,4 @@
-name: Deploy Eleventy to Main
+name: Deploy Eleventy to GitHub Pages
 
 on:
   push:
@@ -18,8 +18,15 @@ jobs:
 
       - run: npm install
 
-      - run: npx eleventy
+      - name: Build Tailwind CSS
+        run: npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css
 
-      - name: Copy site to root
-        run: |
-          cp -r _site/* .
+      - name: Build Eleventy
+        run: npx eleventy
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
