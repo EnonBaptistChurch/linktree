@@ -1,28 +1,39 @@
 {
   "name": "Enon Baptist Church",
-  "bio": "Enon Baptist Church in Chatham",
+  "bio": "A Gospel loving and proclaiming Church",
+  "sermontimes": "Sundays: 11:15am & 6:30pm",
+  "address": "Chatham, Skinner Street, Me4 5RF",
   "avatar": "https://enonbaptistchatham.org.uk/images/building/new-enon-320.webp",
   "links": [
     {
       "label": "Church Website",
       "url": "https://enonbaptistchatham.org.uk",
-      "sublabel": "https://enonbaptistchatham.org.uk"
+      "category": "church"
+    },
+    {
+      "label": "Sermons",
+      "url": "https://enonbaptistchatham.org.uk/sermons",
+      "category": "church"
     },
     {
       "label": "Christian Institute",
-      "url": "https://christian.org.uk"
+      "url": "https://christian.org.uk",
+      "category": "organization"
     },
     {
       "label": "Christian Concern",
-      "url": "https://christianconcern.com"
+      "url": "https://christianconcern.com",
+      "category": "organization"
     },
     {
       "label": "Open Doors",
-      "url": "https://opendoorsuk.org"
+      "url": "https://opendoorsuk.org",
+      "category": "organization"
     },
     {
       "label": "Grace Baptist Mission",
-      "url": "https://gbm.org.uk"
+      "url": "https://gbm.org.uk",
+      "category": "organization"
     }
   ]
 }
