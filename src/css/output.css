@@ -822,6 +822,18 @@ video {
   background-image: radial-gradient(circle at 30% 30%,#0369a1,#0c4a6e);
 }
 
+.bg-\[radial-gradient\(circle_at_70\%_70\%\2c theme\(colors\.sky\.500\)\2c theme\(colors\.blue\.700\)\)\] {
+  background-image: radial-gradient(circle at 70% 70%,#0ea5e9,#1d4ed8);
+}
+
+.bg-\[radial-gradient\(circle_at_70\%_70\%\2c theme\(colors\.blue\.500\)\2c theme\(colors\.blue\.700\)\)\] {
+  background-image: radial-gradient(circle at 70% 70%,#3b82f6,#1d4ed8);
+}
+
+.bg-\[radial-gradient\(circle_at_50\%_50\%\2c theme\(colors\.blue\.600\)\2c theme\(colors\.sky\.800\)\)\] {
+  background-image: radial-gradient(circle at 50% 50%,#2563eb,#075985);
+}
+
 .from-blue-900\/30 {
   --tw-gradient-from: rgb(30 58 138 / 0.3) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
