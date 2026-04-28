@@ -2,9 +2,9 @@
   "name": "linktree",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"npx @11ty/eleventy --serve\" \"npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch\"",
-    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css && npx @11ty/eleventy"
-  },
+  "dev": "concurrently \"npx @11ty/eleventy --serve\" \"npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch\"",
+  "build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css && npx @11ty/eleventy"
+},
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@tailwindcss/cli": "^4.2.4",
