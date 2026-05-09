@@ -9,6 +9,6 @@
     "@11ty/eleventy": "^3.0.0",
     "@tailwindcss/cli": "^4.2.4",
     "concurrently": "^9.0.0",
-    "tailwindcss": "^4.2.4"
+    "tailwindcss": "^4.3.0"
   }
 }
