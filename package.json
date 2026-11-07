@@ -9,7 +9,7 @@
     "@11ty/eleventy": "^4.0.0-alpha.10",
     "@tailwindcss/cli": "^4.3.3",
     "concurrently": "^10.0.5",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.4"
   },
   "overrides": {
     "@parcel/watcher": "2.6.0"
